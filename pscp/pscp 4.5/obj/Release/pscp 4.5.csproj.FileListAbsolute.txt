@@ -1,0 +1,3 @@
+J:\my github\c# libraries\Putty Secure Copy Client .Net\compiled\release\4.5\pscp.dll
+J:\my github\c# libraries\Putty Secure Copy Client .Net\pscp\pscp 4.5\obj\Release\pscp 4.5.csprojResolveAssemblyReference.cache
+J:\my github\c# libraries\Putty Secure Copy Client .Net\pscp\pscp 4.5\obj\Release\pscp.dll

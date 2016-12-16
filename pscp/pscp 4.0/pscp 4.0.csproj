@@ -4,7 +4,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{FCDC1141-1A35-4E6C-A9E0-56F4BB556F1B}</ProjectGuid>
+    <ProjectGuid>{611F99B6-7510-450D-BC48-C60FAD1BEEDC}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>pscp</RootNamespace>
@@ -17,18 +17,20 @@
     <DebugSymbols>true</DebugSymbols>
     <DebugType>full</DebugType>
     <Optimize>false</Optimize>
-    <OutputPath>..\..\compiled\debug\</OutputPath>
+    <OutputPath>..\..\compiled\debug\4.0\</OutputPath>
     <DefineConstants>DEBUG;TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <DebugType>none</DebugType>
     <Optimize>true</Optimize>
-    <OutputPath>..\..\compiled\release\</OutputPath>
+    <OutputPath>..\..\compiled\release\4.0\</OutputPath>
     <DefineConstants>TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -41,11 +43,21 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="library\Core\Connection.cs" />
-    <Compile Include="library\Core\Execution.cs" />
-    <Compile Include="library\Core\Variables.cs" />
-    <Compile Include="library\Debug\Debug.cs" />
-    <Compile Include="library\Transfers\Transfer.cs" />
+    <Compile Include="..\..\files\lib\Core\Connection.cs">
+      <Link>lib\Core\Connection.cs</Link>
+    </Compile>
+    <Compile Include="..\..\files\lib\Core\Execution.cs">
+      <Link>lib\Core\Execution.cs</Link>
+    </Compile>
+    <Compile Include="..\..\files\lib\Core\Variables.cs">
+      <Link>lib\Core\Variables.cs</Link>
+    </Compile>
+    <Compile Include="..\..\files\lib\Debug\Debug.cs">
+      <Link>lib\Debug\Debug.cs</Link>
+    </Compile>
+    <Compile Include="..\..\files\lib\Transfers\Transfer.cs">
+      <Link>lib\Transfers\Transfer.cs</Link>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

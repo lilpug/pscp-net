@@ -1,0 +1,9 @@
+c:\users\lilpug\documents\visual studio 2015\Projects\pscp\pscp\bin\Debug\pscp.dll
+c:\users\lilpug\documents\visual studio 2015\Projects\pscp\pscp\bin\Debug\pscp.pdb
+c:\users\lilpug\documents\visual studio 2015\Projects\pscp\pscp\obj\Debug\pscp.dll
+c:\users\lilpug\documents\visual studio 2015\Projects\pscp\pscp\obj\Debug\pscp.pdb
+J:\my github\c# libraries\Putty Secure Copy Client .Net\compiled\debug\pscp.dll
+J:\my github\c# libraries\Putty Secure Copy Client .Net\compiled\debug\pscp.pdb
+J:\my github\c# libraries\Putty Secure Copy Client .Net\pscp\pscp\obj\Debug\pscp.dll
+J:\my github\c# libraries\Putty Secure Copy Client .Net\pscp\pscp\obj\Debug\pscp.pdb
+J:\my github\c# libraries\Putty Secure Copy Client .Net\pscp\pscp\obj\Debug\pscp.csprojResolveAssemblyReference.cache

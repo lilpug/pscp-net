@@ -1,0 +1,2 @@
+J:\my github\c# libraries\Putty Secure Copy Client .Net\compiled\release\pscp.dll
+J:\my github\c# libraries\Putty Secure Copy Client .Net\pscp\pscp\obj\Release\pscp.dll
